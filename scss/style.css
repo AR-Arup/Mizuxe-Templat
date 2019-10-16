@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292A6;
+          box-shadow: 2px 2px 5px #3292A6;
+  opacity: 0.9;
+}
+
+.navbar ul li {
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 2px;
+}
+
+.navbar ul li a {
+  font-size: 19px;
+  color: #3292A6;
+}
+
+.navbar ul li:hover {
+  background-color: #3292A6;
+}
+
+.navbar ul :last-child {
+  margin-right: 0;
+}
+
+#showcase {
+  background-image: url("../img/mountains.jpg");
+  min-height: 700px;
+  position: relative;
+}
+
+#showcase .primary-overly {
+  background: rgba(50, 146, 166, 0.7);
+  min-height: 700px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#showcase a {
+  border-radius: 0;
+}
+
+#showcase h1 {
+  padding-top: 170px;
+}
+
+#subscribe {
+  background-color: #000000;
+}
+
+#subscribe input {
+  border-radius: 0;
+}
+
+#subscribe .my-space5 {
+  margin-bottom: 0;
+}
+
+#box-section .card {
+  border: 1px solid red;
+}
+
+#authors-part .col-lg-12 {
+  margin-bottom: 60px;
+}
+
+#authors-part .card {
+  border-radius: 0;
+  border: 1px solid red;
+}
+
+#authors-part .card:hover {
+  background: #3292A6;
+  color: #fff;
+  -webkit-box-shadow: 1px 1px 10px #e94d4d, -1px -1px 10px #e94d4d;
+          box-shadow: 1px 1px 10px #e94d4d, -1px -1px 10px #e94d4d;
+}
+
+#authors-part h3 {
+  font-size: 28px;
+}
+
+#authors-part img {
+  margin-top: -50px;
+}
+
+#authors-part .card:hover .fab {
+color: #ffffff;
+}
+
+#authors-part .card .fab:hover {
+  color: blue;
+}
+
+
+@media (max-width: 768px) {
+  .navbar ul li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #subscribe .my-space5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,139 @@
+$bg-light-dark: #333;
+$nav-shadow-color: #3292A6;
+$primary-overlay: rgba(50, 146, 166, 0.7);
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+   box-shadow: 2px 2px 5px $nav-shadow-color;
+    opacity: 0.9;
+   ul{
+       li{
+           text-align: center;
+           margin-right: 15px;
+           margin-left: 15px;
+           border-radius: 2px;
+           a{
+               font-size: 19px;
+               color: $nav-shadow-color;
+           }
+       }
+   }
+}
+
+.navbar ul li:hover{
+    background-color: $nav-shadow-color;
+}
+
+.navbar{
+    ul{
+        :last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+#showcase{
+       background-image: url('../img/mountains.jpg');
+       min-height: 700px;
+       position: relative;
+       
+        .primary-overly{
+            background: $primary-overlay;
+            min-height: 700px;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+        a{
+            border-radius: 0;
+        }
+
+        h1{
+            padding-top: 170px
+        }
+    }
+
+    #subscribe {
+        background-color: #000000;
+        input {
+            border-radius: 0;
+        }
+
+        .my-space5{
+            margin-bottom: 0;
+        }
+    }
+
+    #box-section{
+        .card{
+            border: 1px solid red;
+        }
+    }
+
+    #authors-part{
+        .col-lg-12{
+            margin-bottom: 60px;
+        }
+        .card{
+            border-radius: 0;
+            border: 1px solid red;
+         
+        }
+        .card:hover{
+            background: $nav-shadow-color;
+            color: #fff;
+            box-shadow: 1px 1px 8px rgb(233, 77, 77,0.8), -1px -1px 8px rgb(233, 77, 77,0.8);
+        }
+        h3{
+            font-size: 28px;
+            }
+        img{
+            margin-top: -50px;
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .navbar{
+        ul{
+            li{
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+   #showcase {
+       h1 {
+           font-size: 4rem;
+       }
+     
+   }
+}
+
+@media (max-width: 992px){
+    #subscribe {
+        .my-space5 {
+            margin-top: 5px;  
+            margin-bottom: 5px;  
+            }
+    }
+}
